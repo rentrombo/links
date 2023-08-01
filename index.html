@@ -7,15 +7,26 @@
     background-color: #f3d2c1;
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
     }
 
     .name {
       color:#001858;
+      display: flex;
+      justify-content: center;
     }
 
     .socials {
       color: #f582ae;
       text-decoration-color: #001858;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .banner-image {
@@ -47,22 +58,35 @@
       border-color: #001858;
       padding: 4px 4px;
       background-color: #f582ae;
-      align-content: center;
+      
     }
 
     .links {
       background-color: #fef6e4;
+      display: flex;
+      align-items: center;
+    }
+
+    .links a {
+      color: #172c66;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
     }
 
     .items {
       display:flex;
       flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      justify-content: center;
     }
   </style>
 
 </head>
 
 <body>
+  
   <div class="items">
   <div class="banner">
     <img src="thumbnails/profile128.jpg" alt="Rowen Trombo Photo by Bella Peterson from July 8th 2023" class="banner-image">
@@ -71,7 +95,7 @@
   <div class='name'>
     Rowen Trombo
   </div>
-
+  
   <div class="socials">
     <button class="social-button"><a href="https://github.com/rentrombo" target=" _blank">
     <img src="thumbnails/alexander-shatov-PHH_0uw9-Qw-unsplash.jpg" alt="small computer with hello written on it in black and white" class="thumbnails">
